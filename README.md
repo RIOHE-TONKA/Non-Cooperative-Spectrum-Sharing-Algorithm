@@ -83,5 +83,8 @@ That’s, using equation below we obtain the fairness index of 0.736, what this 
 
 <img width="891" alt="image" src="https://github.com/user-attachments/assets/9e623f7c-1b84-4180-a99d-99fbb9227fa4" />
 
+# Conclusion
+In this work, a game-theoretic approach was applied to spectrum sharing in cognitive radio networks (CRNs), modelling interactions between primary users (PUs) and secondary users (SUs) competing for limited channels. Through a Python-based simulation, the study explored efficient spectrum allocation, prioritizing PUs while allowing opportunistic access for SUs. The algorithm effectively created a stable environment where both user types could coexist with minimal interference, maximizing channel utilization. Jain’s fairness index, based on channel occupancy rather than time, offered a practical measure of fairness, showing that equitable spectrum access is achievable without equal time allocation, given that each user group could access resources in line with its needs and priorities.
 
+The findings underscore the potential of game theory in CRNs, demonstrating how structured priority-based access can balance spectrum usage in dynamic environments. While the algorithm presents a promising framework, it has limitations as mentioned such as a fixed number of channels. Overall, this research contributes to both theoretical and practical aspects of non-cooperative spectrum sharing, suggesting that game-theoretic methods combined with occupancy-based fairness measures can provide a scalable, efficient, and fair solution for managing wireless resources in competitive settings.
 
